@@ -1,0 +1,16 @@
+CompileFlags:
+  # CompilationDatabase: ./examples/matrix_operations/build/
+  CompilationDatabase: ./build/
+  Add:
+    - -Iinclude
+    - -Isrc
+    - -Wno-unknown-warning-option
+  Remove:
+    - -mtext-section-literals
+    - -fstrict-volatile-bitfields
+    - -fno-tree-switch-conversion
+    - -fno-malloc-dce
+    - -fzero-init-padding-bits=all
+    - -fno-shrink-wrap
+
+    - "-Wformat-*"
