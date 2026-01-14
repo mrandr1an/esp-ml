@@ -52,3 +52,30 @@ add_custom_target(run_iris
   DEPENDS iris
   WORKING_DIRECTORY "${CMAKE_BINARY_DIR}"
 )
+
+# ---- Doxygen docs ----
+option(ESP_ML_BUILD_DOCS "Build API documentation with Doxygen" ON)
+
+if (ESP_ML_BUILD_DOCS)
+  find_package(Doxygen REQUIRED)
+  set(DOXYGEN_OUTPUT_DIRECTORY "${CMAKE_BINARY_DIR}/docs")
+  set(DOXYGEN_GENERATE_HTML YES)
+  set(DOXYGEN_GENERATE_LATEX NO)
+  set(DOXYGEN_PROJECT_NAME "${PROJECT_NAME}")
+  set(DOXYGEN_PROJECT_BRIEF "Machine Learning for the ESP")
+  set(DOXYGEN_INPUT
+      "${CMAKE_SOURCE_DIR}/include"
+      "${CMAKE_SOURCE_DIR}/src"
+      "${CMAKE_SOURCE_DIR}/README.md"
+  )
+  set(DOXYGEN_RECURSIVE YES)
+  set(DOXYGEN_EXTRACT_ALL YES)
+  set(DOXYGEN_QUIET YES)
+  set(DOXYGEN_MARKDOWN_SUPPORT YES)
+  set(DOXYGEN_USE_MDFILE_AS_MAINPAGE "${CMAKE_SOURCE_DIR}/README.md")
+
+  doxygen_add_docs(docs
+    ${DOXYGEN_INPUT}
+    COMMENT "Generating Doxygen documentation"
+  )
+endif()

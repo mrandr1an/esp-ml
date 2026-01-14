@@ -97,7 +97,7 @@ static ML_Status iris_next_batch(void* ctxp, Matf32* X, Matf32* Y) {
 int main() {
   printf("Starting...\n");
   ML_Status status = ML_OK;
-  static unsigned char arena_mem[KiB(100)];
+  static unsigned char arena_mem[KiB(10)];
   ml_arena arena;
   status = create_ml_arena(&arena,arena_mem,(u64)sizeof(arena_mem));
   if (status != ML_OK)
@@ -106,7 +106,7 @@ int main() {
   //Dimensions for Iris Data Set
 
   //Samples
-  const u64 N = 150;
+  const u64 N = 5;
   // 4 Features
   // sepal length
   // sepal width
@@ -158,7 +158,7 @@ int main() {
   if (status != ML_OK)
     printf("Error at creating model: %d\n",status);
 
-  ML_TrainConfig tconf = {.epochs = 50, .lr = 0.05f};
+  ML_TrainConfig tconf = {.epochs = 200, .lr = 0.05f};
 
   IrisBatchCtx bctx = {
     .csv = &iris_dataset,

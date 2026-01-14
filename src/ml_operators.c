@@ -154,7 +154,7 @@ ML_Status execute_op_Linear_backward(Linear* lin, const Matf32 dZ) {
 
   ML_Status status = ML_OK;
 
-  // X_T = X^T
+  // Transpose X
   status = Mat_transpose_into(&lin->X_T, lin->X);
   if (status != ML_OK) return status;
 

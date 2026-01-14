@@ -14,5 +14,9 @@ cmake --build build
 🫠
 ### TODO MacOS
 ## TODO Build documentation
-
+```bash
+cmake -S . -B build
+cmake --build build --target docs
+#Docs are now on ./build/docs
+```
 # TODO Contributing
