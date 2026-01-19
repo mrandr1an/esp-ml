@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Iris Form</title>
+    <style>
+      body { font-family: system-ui, sans-serif; padding: 24px; }
+      form { max-width: 560px; display: grid; gap: 12px; }
+      .row { display: grid; grid-template-columns: 160px 1fr; gap: 10px; align-items: center; }
+      label { font-weight: 600; }
+      input[type="number"], select { padding: 8px 10px; font-size: 16px; }
+      .actions { display: flex; gap: 10px; margin-top: 8px; }
+      button { padding: 10px 14px; font-size: 16px; cursor: pointer; }
+      .hint { font-size: 13px; opacity: 0.75; grid-column: 2 / 3; }
+    </style>
+  </head>
+
+  <body>
+    <form id="iris-form">
+      <div class="row">
+        <label for="sepal-length">Sepal length</label>
+        <input id="sepal-length" name="sepal_length" type="number" step="any" required />
+      </div>
+
+      <div class="row">
+        <label for="sepal-width">Sepal width</label>
+        <input id="sepal-width" name="sepal_width" type="number" step="any" required />
+      </div>
+
+      <div class="row">
+        <label for="petal-length">Petal length</label>
+        <input id="petal-length" name="petal_length" type="number" step="any" required />
+      </div>
+
+      <div class="row">
+        <label for="petal-width">Petal width</label>
+        <input id="petal-width" name="petal_width" type="number" step="any" required />
+      </div>
+
+      <div class="row">
+        <label for="label">Label (optional)</label>
+        <select id="label" name="label">
+          <option value="Unknown" selected>Unknown</option>
+          <option value="Setosa">Setosa</option>
+          <option value="Versicolor">Versicolor</option>
+          <option value="Virginica">Virginica</option>
+        </select>
+      </div>
+      <div class="row">
+        <div></div>
+        <div class="hint">Use “Unknown” when you don’t have a ground-truth label.</div>
+      </div>
+
+      <div class="actions">
+        <button type="button" id="infer-btn">Infer</button>
+        <button type="button" id="train-btn">Train</button>
+      </div>
+    </form>
+
+<script>
+  const form = document.getElementById("iris-form");
+
+  function readInputs() {
+    const data = new FormData(form);
+    return {
+      sepal_length: Number(data.get("sepal_length")),
+      sepal_width: Number(data.get("sepal_width")),
+      petal_length: Number(data.get("petal_length")),
+      petal_width: Number(data.get("petal_width")),
+      label: String(data.get("label") ?? "Unknown"),
+    };
+  }
+
+  async function postJSON(url, payload) {
+    const res = await fetch(url, {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(payload),
+    });
+
+    if (!res.ok) {
+      const text = await res.text().catch(() => "");
+      throw new Error(`POST ${url} failed: ${res.status} ${res.statusText}\n${text}`);
+    }
+
+    // If your server returns JSON:
+    return await res.json().catch(() => null);
+  }
+
+  document.getElementById("infer-btn").addEventListener("click", async () => {
+    const x = readInputs();
+    try {
+	const out = await postJSON("http://192.168.2.16:80/infer", x); 
+      console.log("infer result:", out);
+    } catch (e) {
+      console.error(e);
+    }
+  });
+
+  document.getElementById("train-btn").addEventListener("click", async () => {
+    const x = readInputs();
+    try {
+	const out = await postJSON("http://192.168.2.16:80/train", x); 
+      console.log("train result:", out);
+    } catch (e) {
+      console.error(e);
+    }
+  });
+</script>
+  </body>
+</html>

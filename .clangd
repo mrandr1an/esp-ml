@@ -1,6 +1,6 @@
 CompileFlags:
-  # CompilationDatabase: ./examples/matrix_operations/build/
-  CompilationDatabase: ./build/
+  CompilationDatabase: ./examples/matrix_operations/build/
+  # CompilationDatabase: ./build/
   Add:
     - -Iinclude
     - -Isrc
