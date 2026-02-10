@@ -1,0 +1,5 @@
+<map id="Softmax" name="Softmax">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,139,77,163"/>
+<area shape="rect" id="Node000002" href="$structMatf32.html" title="Dense matrix of 32&#45;bit floats." alt="" coords="10,5,72,30"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="44,46,44,138,38,138,38,46"/>
+</map>

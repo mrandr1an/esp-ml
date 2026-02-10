@@ -1,0 +1,52 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.3.6 Chrome/140.0.7339.249 Electron/38.8.0 Safari/537.36" version="29.3.6">
+  <diagram name="Page-1" id="nIHbCvvY-o8G4S5JP3HI">
+    <mxGraphModel dx="2014" dy="1247" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" background="none" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="hnQDHBRblpgsPMgoNvNZ-15" edge="1" parent="1" source="hnQDHBRblpgsPMgoNvNZ-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=1;" target="hnQDHBRblpgsPMgoNvNZ-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hnQDHBRblpgsPMgoNvNZ-16" edge="1" parent="1" source="hnQDHBRblpgsPMgoNvNZ-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=1;" target="hnQDHBRblpgsPMgoNvNZ-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hnQDHBRblpgsPMgoNvNZ-2" parent="1" style="swimlane;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=1;glass=0;shadow=0;startSize=23;" value="&lt;font style=&quot;font-size: 19px;&quot;&gt;Model&lt;/font&gt;" vertex="1">
+          <mxGeometry height="240" width="280" x="640" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="hnQDHBRblpgsPMgoNvNZ-6" parent="hnQDHBRblpgsPMgoNvNZ-2" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Weights&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="280" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="hnQDHBRblpgsPMgoNvNZ-7" parent="hnQDHBRblpgsPMgoNvNZ-2" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Initialization Strategy&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="280" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="hnQDHBRblpgsPMgoNvNZ-8" parent="hnQDHBRblpgsPMgoNvNZ-2" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Rng Interface&lt;/font&gt;" vertex="1">
+          <mxGeometry height="100" width="280" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="hnQDHBRblpgsPMgoNvNZ-10" parent="1" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;create_config_MODEL&lt;/span&gt;" vertex="1">
+          <mxGeometry height="120" width="270" x="140" y="620" as="geometry" />
+        </mxCell>
+        <mxCell id="hnQDHBRblpgsPMgoNvNZ-11" parent="1" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;create_model_MODEL&lt;/span&gt;" vertex="1">
+          <mxGeometry height="120" width="270" x="490" y="620" as="geometry" />
+        </mxCell>
+        <mxCell id="hnQDHBRblpgsPMgoNvNZ-12" parent="1" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;infer_MODEL&lt;/span&gt;" vertex="1">
+          <mxGeometry height="120" width="270" x="860" y="620" as="geometry" />
+        </mxCell>
+        <mxCell id="hnQDHBRblpgsPMgoNvNZ-13" parent="1" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;train_step_MODEL&lt;/span&gt;" vertex="1">
+          <mxGeometry height="120" width="270" x="1210" y="620" as="geometry" />
+        </mxCell>
+        <mxCell id="hnQDHBRblpgsPMgoNvNZ-17" edge="1" parent="1" source="hnQDHBRblpgsPMgoNvNZ-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=1;" target="hnQDHBRblpgsPMgoNvNZ-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hnQDHBRblpgsPMgoNvNZ-18" edge="1" parent="1" source="hnQDHBRblpgsPMgoNvNZ-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=1;" target="hnQDHBRblpgsPMgoNvNZ-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hnQDHBRblpgsPMgoNvNZ-19" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;rotation=-90;" value="" vertex="1">
+          <mxGeometry height="1385" width="50" x="802" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="hnQDHBRblpgsPMgoNvNZ-20" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;&lt;u&gt;Model Usage API&lt;/u&gt;&lt;/b&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="300" x="680" y="820" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

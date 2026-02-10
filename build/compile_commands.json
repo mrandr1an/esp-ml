@@ -1,0 +1,50 @@
+[
+{
+  "directory": "/home/chrisl/Projects/CXX/esp-ml/build",
+  "command": "/usr/sbin/cc  -I/home/chrisl/Projects/CXX/esp-ml/include -std=gnu11 -o CMakeFiles/ml.dir/src/ml_alloc.c.o -c /home/chrisl/Projects/CXX/esp-ml/src/ml_alloc.c",
+  "file": "/home/chrisl/Projects/CXX/esp-ml/src/ml_alloc.c",
+  "output": "CMakeFiles/ml.dir/src/ml_alloc.c.o"
+},
+{
+  "directory": "/home/chrisl/Projects/CXX/esp-ml/build",
+  "command": "/usr/sbin/cc  -I/home/chrisl/Projects/CXX/esp-ml/include -std=gnu11 -o CMakeFiles/ml.dir/src/ml_models.c.o -c /home/chrisl/Projects/CXX/esp-ml/src/ml_models.c",
+  "file": "/home/chrisl/Projects/CXX/esp-ml/src/ml_models.c",
+  "output": "CMakeFiles/ml.dir/src/ml_models.c.o"
+},
+{
+  "directory": "/home/chrisl/Projects/CXX/esp-ml/build",
+  "command": "/usr/sbin/cc  -I/home/chrisl/Projects/CXX/esp-ml/include -std=gnu11 -o CMakeFiles/ml.dir/src/ml_operators.c.o -c /home/chrisl/Projects/CXX/esp-ml/src/ml_operators.c",
+  "file": "/home/chrisl/Projects/CXX/esp-ml/src/ml_operators.c",
+  "output": "CMakeFiles/ml.dir/src/ml_operators.c.o"
+},
+{
+  "directory": "/home/chrisl/Projects/CXX/esp-ml/build",
+  "command": "/usr/sbin/cc  -I/home/chrisl/Projects/CXX/esp-ml/include -std=gnu11 -o CMakeFiles/ml.dir/src/ml_primitives.c.o -c /home/chrisl/Projects/CXX/esp-ml/src/ml_primitives.c",
+  "file": "/home/chrisl/Projects/CXX/esp-ml/src/ml_primitives.c",
+  "output": "CMakeFiles/ml.dir/src/ml_primitives.c.o"
+},
+{
+  "directory": "/home/chrisl/Projects/CXX/esp-ml/build",
+  "command": "/usr/sbin/cc  -I/home/chrisl/Projects/CXX/esp-ml/include -std=gnu11 -o CMakeFiles/ml.dir/src/ml_rng.c.o -c /home/chrisl/Projects/CXX/esp-ml/src/ml_rng.c",
+  "file": "/home/chrisl/Projects/CXX/esp-ml/src/ml_rng.c",
+  "output": "CMakeFiles/ml.dir/src/ml_rng.c.o"
+},
+{
+  "directory": "/home/chrisl/Projects/CXX/esp-ml/build",
+  "command": "/usr/sbin/cc  -I/home/chrisl/Projects/CXX/esp-ml/desktop-examples/common/include -I/home/chrisl/Projects/CXX/esp-ml/include -std=gnu11 -o CMakeFiles/example_common.dir/desktop-examples/common/src/csv_utils.c.o -c /home/chrisl/Projects/CXX/esp-ml/desktop-examples/common/src/csv_utils.c",
+  "file": "/home/chrisl/Projects/CXX/esp-ml/desktop-examples/common/src/csv_utils.c",
+  "output": "CMakeFiles/example_common.dir/desktop-examples/common/src/csv_utils.c.o"
+},
+{
+  "directory": "/home/chrisl/Projects/CXX/esp-ml/build",
+  "command": "/usr/sbin/cc  -I/home/chrisl/Projects/CXX/esp-ml/desktop-examples/common/include -I/home/chrisl/Projects/CXX/esp-ml/include -std=gnu11 -o CMakeFiles/example_common.dir/desktop-examples/common/src/matrix_utils.c.o -c /home/chrisl/Projects/CXX/esp-ml/desktop-examples/common/src/matrix_utils.c",
+  "file": "/home/chrisl/Projects/CXX/esp-ml/desktop-examples/common/src/matrix_utils.c",
+  "output": "CMakeFiles/example_common.dir/desktop-examples/common/src/matrix_utils.c.o"
+},
+{
+  "directory": "/home/chrisl/Projects/CXX/esp-ml/build",
+  "command": "/usr/sbin/cc  -I/home/chrisl/Projects/CXX/esp-ml/include -I/home/chrisl/Projects/CXX/esp-ml/desktop-examples/common/include -std=gnu11 -o CMakeFiles/iris.dir/desktop-examples/iris.c.o -c /home/chrisl/Projects/CXX/esp-ml/desktop-examples/iris.c",
+  "file": "/home/chrisl/Projects/CXX/esp-ml/desktop-examples/iris.c",
+  "output": "CMakeFiles/iris.dir/desktop-examples/iris.c.o"
+}
+]

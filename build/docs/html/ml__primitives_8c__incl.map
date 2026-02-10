@@ -1,0 +1,20 @@
+<map id="src/ml_primitives.c" name="src/ml_primitives.c">
+<area shape="rect" id="Node000001" title=" " alt="" coords="111,5,241,30"/>
+<area shape="rect" id="Node000002" href="$ml__primitives_8h.html" title="Dense f32 matrix primitives used by the ML operators." alt="" coords="30,78,138,103"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="163,33,113,71,110,66,160,28"/>
+<area shape="rect" id="Node000003" href="$ml__error_8h.html" title=" " alt="" coords="17,223,96,248"/>
+<area shape="poly" id="edge8_Node000001_Node000003" title=" " alt="" coords="112,28,61,46,38,60,20,80,12,95,9,111,13,147,26,180,42,209,37,212,21,183,8,148,4,111,7,93,15,76,35,56,58,41,110,23"/>
+<area shape="rect" id="Node000004" href="$ml__alloc_8h.html" title="Simple bump&#45;pointer arena allocator with fixed backing storage." alt="" coords="112,151,192,175"/>
+<area shape="poly" id="edge7_Node000001_Node000004" title=" " alt="" coords="177,31,159,136,154,135,172,30"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="213,78,281,103"/>
+<area shape="poly" id="edge9_Node000001_Node000007" title=" " alt="" coords="190,29,227,65,223,69,186,32"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="304,78,366,103"/>
+<area shape="poly" id="edge10_Node000001_Node000008" title=" " alt="" coords="204,28,296,69,294,74,201,33"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="85,103,64,209,59,208,80,102"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="97,101,133,137,129,141,94,105"/>
+<area shape="poly" id="edge6_Node000004_Node000003" title=" " alt="" coords="138,178,85,216,82,212,135,174"/>
+<area shape="rect" id="Node000005" href="$ml__defs_8h.html" title=" " alt="" coords="120,223,198,248"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="156,176,159,208,154,208,151,176"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="127,296,191,321"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="162,249,162,280,156,280,156,249"/>
+</map>

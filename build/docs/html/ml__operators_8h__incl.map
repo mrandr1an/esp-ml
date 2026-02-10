@@ -1,0 +1,19 @@
+<map id="include/ml_operators.h" name="include/ml_operators.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,5,159,30"/>
+<area shape="rect" id="Node000002" href="$ml__error_8h.html" title=" " alt="" coords="12,296,91,321"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="79,32,58,83,39,151,36,186,38,221,47,280,42,281,33,221,31,186,34,150,53,81,74,30"/>
+<area shape="rect" id="Node000003" href="$ml__primitives_8h.html" title="Dense f32 matrix primitives used by the ML operators." alt="" coords="49,151,158,175"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="86,30,102,135,97,136,81,31"/>
+<area shape="rect" id="Node000007" href="$ml__rng_8h.html" title=" " alt="" coords="120,78,191,103"/>
+<area shape="poly" id="edge8_Node000001_Node000007" title=" " alt="" coords="96,29,135,65,131,69,92,32"/>
+<area shape="poly" id="edge3_Node000003_Node000002" title=" " alt="" coords="100,177,79,224,61,282,56,280,74,222,95,175"/>
+<area shape="rect" id="Node000004" href="$ml__alloc_8h.html" title="Simple bump&#45;pointer arena allocator with fixed backing storage." alt="" coords="88,223,169,248"/>
+<area shape="poly" id="edge4_Node000003_Node000004" title=" " alt="" coords="110,175,122,208,117,209,105,177"/>
+<area shape="poly" id="edge7_Node000004_Node000002" title=" " alt="" coords="118,251,77,287,73,283,114,247"/>
+<area shape="rect" id="Node000005" href="$ml__defs_8h.html" title=" " alt="" coords="115,296,193,321"/>
+<area shape="poly" id="edge5_Node000004_Node000005" title=" " alt="" coords="135,248,147,280,142,282,130,249"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="122,369,186,393"/>
+<area shape="poly" id="edge6_Node000005_Node000006" title=" " alt="" coords="157,321,157,353,151,353,151,321"/>
+<area shape="poly" id="edge9_Node000007_Node000002" title=" " alt="" coords="164,102,178,130,191,168,195,209,192,230,183,250,171,261,151,273,103,293,101,288,149,268,167,257,178,246,187,229,190,209,186,169,173,132,160,104"/>
+<area shape="poly" id="edge10_Node000007_Node000003" title=" " alt="" coords="149,105,123,140,119,137,145,102"/>
+</map>

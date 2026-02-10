@@ -1,0 +1,17 @@
+<map id="SoftmaxRegression" name="SoftmaxRegression">
+<area shape="rect" id="Node000001" title=" " alt="" coords="208,311,345,335"/>
+<area shape="rect" id="Node000002" href="$structSoftmaxRegressionConfig.html" title=" " alt="" coords="5,216,180,241"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="131,246,255,308,252,312,128,251"/>
+<area shape="rect" id="Node000003" href="$structML__Rng.html" title=" " alt="" coords="57,5,128,30"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="95,45,95,216,90,216,90,45"/>
+<area shape="rect" id="Node000004" href="$structLinear.html" title=" " alt="" coords="204,216,261,241"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="247,254,274,309,269,312,242,256"/>
+<area shape="rect" id="Node000005" href="$structMatf32.html" title="Dense matrix of 32&#45;bit floats." alt="" coords="290,5,351,30"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="296,42,285,55,264,99,250,145,236,216,231,215,245,144,259,97,281,53,292,39"/>
+<area shape="rect" id="Node000006" href="$structSoftmax.html" title=" " alt="" coords="285,216,356,241"/>
+<area shape="poly" id="edge6_Node000006_Node000005" title=" " alt="" coords="323,45,323,216,318,216,318,45"/>
+<area shape="rect" id="Node000007" href="$structCrossEntropy.html" title=" " alt="" coords="380,216,482,241"/>
+<area shape="poly" id="edge8_Node000007_Node000005" title=" " alt="" coords="365,36,383,52,407,95,422,142,430,185,433,215,428,216,425,185,417,143,402,98,378,56,361,40"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="311,256,284,312,279,309,306,254"/>
+<area shape="poly" id="edge7_Node000001_Node000007" title=" " alt="" coords="400,251,297,312,295,308,397,247"/>
+</map>

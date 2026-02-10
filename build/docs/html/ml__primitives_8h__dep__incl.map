@@ -1,0 +1,21 @@
+<map id="include/ml_primitives.h" name="include/ml_primitives.h">
+<area shape="rect" id="Node000001" title="Dense f32 matrix primitives used by the ML operators." alt="" coords="40,5,193,30"/>
+<area shape="rect" id="Node000002" href="$ml__operators_8h.html" title=" " alt="" coords="72,151,225,175"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="125,44,149,150,143,151,120,45"/>
+<area shape="rect" id="Node000004" href="$ml__models_8c.html" title=" " alt="" coords="55,296,173,321"/>
+<area shape="poly" id="edge9_Node000001_Node000004" title=" " alt="" coords="98,44,72,79,34,149,22,181,11,224,8,236,11,247,23,262,39,275,74,293,72,298,36,280,19,266,6,249,3,236,6,223,17,179,29,146,68,77,94,40"/>
+<area shape="rect" id="Node000005" href="$ml__operators_8c.html" title=" " alt="" coords="21,223,151,248"/>
+<area shape="poly" id="edge10_Node000001_Node000005" title=" " alt="" coords="105,45,82,93,63,151,63,171,67,190,81,222,76,224,62,192,57,171,58,150,77,91,100,42"/>
+<area shape="rect" id="Node000006" href="$ml__rng_8h.html" title=" " alt="" coords="154,78,271,103"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="146,37,199,76,196,80,143,42"/>
+<area shape="rect" id="Node000008" href="$ml__primitives_8c.html" title=" " alt="" coords="295,78,426,103"/>
+<area shape="poly" id="edge11_Node000001_Node000008" title=" " alt="" coords="172,32,321,75,320,80,171,37"/>
+<area shape="rect" id="Node000003" href="$ml__models_8h.html" title=" " alt="" coords="176,223,316,248"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="179,183,232,221,229,225,175,187"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="130,189,98,225,94,221,126,186"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="212,258,137,298,135,293,209,253"/>
+<area shape="poly" id="edge7_Node000006_Node000002" title=" " alt="" coords="194,116,161,152,157,149,190,112"/>
+<area shape="poly" id="edge6_Node000006_Node000003" title=" " alt="" coords="287,102,326,119,343,133,358,149,363,162,362,175,345,196,317,213,287,225,285,220,315,208,342,192,357,173,358,163,353,152,340,137,323,124,285,107"/>
+<area shape="rect" id="Node000007" href="$ml__rng_8c.html" title=" " alt="" coords="250,151,343,175"/>
+<area shape="poly" id="edge8_Node000006_Node000007" title=" " alt="" coords="240,111,285,148,281,152,236,115"/>
+</map>

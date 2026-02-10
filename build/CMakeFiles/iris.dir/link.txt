@@ -1,0 +1,1 @@
+/usr/sbin/cc -Wl,--dependency-file=CMakeFiles/iris.dir/link.d "CMakeFiles/iris.dir/desktop-examples/iris.c.o" -o iris  libml.a libexample_common.a -lm

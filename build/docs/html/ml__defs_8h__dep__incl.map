@@ -1,0 +1,29 @@
+<map id="include/ml_defs.h" name="include/ml_defs.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="331,5,454,30"/>
+<area shape="rect" id="Node000002" href="$ml__alloc_8h.html" title="Simple bump&#45;pointer arena allocator with fixed backing storage." alt="" coords="330,78,455,103"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="395,46,395,78,390,78,390,46"/>
+<area shape="rect" id="Node000003" href="$ml__primitives_8h.html" title="Dense f32 matrix primitives used by the ML operators." alt="" coords="44,151,197,175"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="334,109,166,153,165,148,333,104"/>
+<area shape="rect" id="Node000006" href="$ml__models_8c.html" title=" " alt="" coords="228,441,346,466"/>
+<area shape="poly" id="edge15_Node000002_Node000006" title=" " alt="" coords="403,117,415,171,422,234,422,310,419,333,410,355,381,393,345,423,312,443,309,439,342,418,377,389,405,353,413,332,416,309,416,234,410,172,398,118"/>
+<area shape="rect" id="Node000010" href="$ml__primitives_8c.html" title=" " alt="" coords="251,223,382,248"/>
+<area shape="poly" id="edge16_Node000002_Node000010" title=" " alt="" coords="382,117,325,224,320,222,377,115"/>
+<area shape="rect" id="Node000011" href="$ml__alloc_8c.html" title=" " alt="" coords="456,151,558,175"/>
+<area shape="poly" id="edge14_Node000002_Node000011" title=" " alt="" coords="425,109,490,148,487,152,423,113"/>
+<area shape="rect" id="Node000004" href="$ml__operators_8h.html" title=" " alt="" coords="60,296,213,321"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="109,190,100,218,98,233,100,247,113,273,128,294,124,297,108,276,95,249,93,233,94,217,104,188"/>
+<area shape="poly" id="edge11_Node000003_Node000006" title=" " alt="" coords="95,187,78,205,63,225,34,271,13,311,9,331,9,350,16,370,29,392,42,402,60,411,112,427,172,438,229,445,228,450,171,443,111,432,58,416,39,406,25,395,11,373,4,351,3,330,8,310,29,268,58,222,74,201,92,183"/>
+<area shape="rect" id="Node000007" href="$ml__operators_8c.html" title=" " alt="" coords="39,369,170,393"/>
+<area shape="poly" id="edge12_Node000003_Node000007" title=" " alt="" coords="105,189,74,237,60,266,50,297,47,308,50,320,67,346,90,366,86,370,63,350,45,322,42,309,45,295,55,264,70,235,100,187"/>
+<area shape="rect" id="Node000008" href="$ml__rng_8h.html" title=" " alt="" coords="110,223,227,248"/>
+<area shape="poly" id="edge7_Node000003_Node000008" title=" " alt="" coords="139,187,163,221,158,224,135,190"/>
+<area shape="poly" id="edge13_Node000003_Node000010" title=" " alt="" coords="168,178,285,220,283,225,166,183"/>
+<area shape="rect" id="Node000005" href="$ml__models_8h.html" title=" " alt="" coords="217,369,357,393"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="176,325,263,366,261,371,174,330"/>
+<area shape="poly" id="edge6_Node000004_Node000007" title=" " alt="" coords="127,336,112,369,107,367,122,334"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="290,409,290,441,284,441,284,409"/>
+<area shape="poly" id="edge9_Node000008_Node000004" title=" " alt="" coords="159,263,144,297,139,295,154,261"/>
+<area shape="poly" id="edge8_Node000008_Node000005" title=" " alt="" coords="240,250,304,269,329,281,345,294,350,305,351,316,341,337,325,355,306,370,303,366,321,352,337,334,345,315,345,306,341,298,326,285,302,274,239,255"/>
+<area shape="rect" id="Node000009" href="$ml__rng_8c.html" title=" " alt="" coords="238,296,331,321"/>
+<area shape="poly" id="edge10_Node000008_Node000009" title=" " alt="" coords="202,254,267,293,264,298,199,259"/>
+</map>

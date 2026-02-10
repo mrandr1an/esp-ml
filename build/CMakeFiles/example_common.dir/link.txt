@@ -1,0 +1,2 @@
+/usr/sbin/ar qc libexample_common.a "CMakeFiles/example_common.dir/desktop-examples/common/src/csv_utils.c.o" "CMakeFiles/example_common.dir/desktop-examples/common/src/matrix_utils.c.o"
+/usr/sbin/ranlib libexample_common.a

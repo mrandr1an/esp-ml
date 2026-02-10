@@ -1,0 +1,2 @@
+/usr/sbin/ar qc libml.a CMakeFiles/ml.dir/src/ml_alloc.c.o CMakeFiles/ml.dir/src/ml_models.c.o CMakeFiles/ml.dir/src/ml_operators.c.o CMakeFiles/ml.dir/src/ml_primitives.c.o CMakeFiles/ml.dir/src/ml_rng.c.o
+/usr/sbin/ranlib libml.a

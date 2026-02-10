@@ -1,0 +1,28 @@
+var ml__primitives_8h =
+[
+    [ "Matf32", "structMatf32.html", "structMatf32" ],
+    [ "create_Mat", "ml__primitives_8h.html#a70ff14f06ac004431ea11bce2c9fc80c", null ],
+    [ "Mat_colsum_into_rowvec", "ml__primitives_8h.html#ac5239c8e3660273887432e13a9cf6dbe", null ],
+    [ "Mat_exp_inplace", "ml__primitives_8h.html#a279259e35ac0f78cb219237d238b4fa1", null ],
+    [ "Mat_get_rowmax", "ml__primitives_8h.html#a819a42333d46918b449b1c2ee35e71c9", null ],
+    [ "Mat_Mul_Mat", "ml__primitives_8h.html#a1dc4b85121d71341695d999433ee2360", null ],
+    [ "Mat_Mul_Mat_into", "ml__primitives_8h.html#abca906093b5d39439b3dc91d071f92f5", null ],
+    [ "Mat_rowmax", "ml__primitives_8h.html#ae9c5bcfa9b8833be1aec53823050486e", null ],
+    [ "Mat_rowmax_into", "ml__primitives_8h.html#a68f551ca7840d358e5b31e1d455b6204", null ],
+    [ "Mat_rowsum", "ml__primitives_8h.html#adc27da545c6915f5362f2c54babe20fe", null ],
+    [ "Mat_rowsum_into", "ml__primitives_8h.html#a4be98fc3e70a97e12e04c2bf188de0ec", null ],
+    [ "Mat_rowwise_add_RowVec_inplace", "ml__primitives_8h.html#aa158c5ab7dcbbf325103dfa4b74483e8", null ],
+    [ "Mat_rowwise_div_ColVec_inplace", "ml__primitives_8h.html#ab3d996cf995a628c1f4ba62f4810711b", null ],
+    [ "Mat_rowwise_sub_ColVec_inplace", "ml__primitives_8h.html#a7497595753f6d4525aa371c7b918069d", null ],
+    [ "Mat_Scale_inplace", "ml__primitives_8h.html#aa5af2362778b5297e11a69a8ad9b1b9c", null ],
+    [ "Mat_SGD_inplace", "ml__primitives_8h.html#a06765a02bf119f84c8d1c917023d4dea", null ],
+    [ "Mat_Sub_Scalar", "ml__primitives_8h.html#a6194a906dc3481e013e43966f37d8660", null ],
+    [ "Mat_transpose", "ml__primitives_8h.html#a0814b55e7e191f35653bb4fdb84879ea", null ],
+    [ "Mat_transpose_into", "ml__primitives_8h.html#a2f998289b8103bc737d92baa4bf88a99", null ],
+    [ "MatCopy", "ml__primitives_8h.html#a74b0299165fc58d5e0679e2e30eec209", null ],
+    [ "MatCopy_into", "ml__primitives_8h.html#a74149aead2287710aeee89f54d12d138", null ],
+    [ "MatFillRow", "ml__primitives_8h.html#a5b02abb3710d3149e2c795c1a530c418", null ],
+    [ "MatFillScalar", "ml__primitives_8h.html#aef4e8db6547da9638759d8b123996a04", null ],
+    [ "MatGet", "ml__primitives_8h.html#ad88a2f0106ca2d2b0e8ab6b475377d0a", null ],
+    [ "MatSet", "ml__primitives_8h.html#adf729797372426037778c75fe7fa776a", null ]
+];
